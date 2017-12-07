@@ -7,6 +7,10 @@ import Home from './routes/Home';
 import About from './routes/About';
 import registerServiceWorker from './registerServiceWorker';
 
+import config from './config';
+
+console.log(config)
+
 const Routes = () => (
     <BrowserRouter>
         <App>
