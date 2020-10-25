@@ -12,6 +12,7 @@ class App extends Component {
                     <h1 className="App-title">Welcome to React</h1>
                     <ul className="menu">
                         <li><Link to="/">Home</Link></li>
+                        <li><Link to="/youtube">Youtube</Link></li>
                         <li><Link to="/about">About</Link></li>
                     </ul>
                 </header>
